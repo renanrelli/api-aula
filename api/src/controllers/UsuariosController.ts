@@ -18,8 +18,8 @@ export class UsuariosController {
         ciphers: "SSLv3",
       },
       auth: {
-        user: "rellirenan@outlook.com",
-        pass: "123456crieti",
+        user: process.env.USER,
+        pass: process.env.PASS,
       },
     };
 
