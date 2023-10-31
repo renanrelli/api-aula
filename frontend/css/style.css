@@ -1,0 +1,43 @@
+html * {
+  font-family: "Arial";
+}
+
+body {
+  background-color: rgb(103, 103, 243);
+  display: flex;
+  justify-content: center;
+}
+
+.login-box {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.login-box h1 {
+  text-transform: uppercase;
+  margin-top: 60px;
+  line-height: 60px;
+  height: 60px;
+}
+
+input {
+  border-radius: 3px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #fff;
+  border: solid 2px #bbb;
+  margin-bottom: 10px;
+}
+
+button {
+  min-width: 160px;
+  border-radius: 3px;
+  height: 30px;
+  line-height: 30px;
+  background-color: rgb(103, 103, 243);
+  color: white;
+  padding: 0 30px;
+}

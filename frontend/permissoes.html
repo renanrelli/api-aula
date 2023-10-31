@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/permissoes.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="formulario">
+      <label for="tipo">Tipo</label>
+      <select name="tipo" id="tipo" required>
+        <option value="" selected disabled>Selecione</option>
+        <option value="C">C</option>
+        <option value="R">R</option>
+        <option value="U">U</option>
+        <option value="D">D</option>
+      </select>
+      <br />
+      <label for="usuario">Usuário</label>
+      <select name="usuario" id="usuario" required></select>
+      <br />
+      <label for="pagina">Página</label>
+      <select name="pagina" id="pagina" required></select>
+      <br />
+
+      <button>Salvar</button>
+    </form>
+
+    <button id="voltar">Voltar</button>
+    <script src="./js/permissoes.js"></script>
+  </body>
+</html>
